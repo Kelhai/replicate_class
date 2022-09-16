@@ -22,12 +22,12 @@
                 margin-top: -14px;
             }
             .box {
-                justify-content: center;
+                justify-content: space-around;
                 align-content: space-around;
                 background-color: white;
                 transition: background-color 0.25s;
                 width: 400px;
-                height: 125px;
+                height: 100px;
                 display: block;
                 flex-direction: column;
                 border-width: 0px;
@@ -43,6 +43,7 @@
                 font-weight: 500;
             }
             .boxBottomText {
+                margin-top: 10px;
                 text-align: center;
                 font-size: 20px;
                 font-weight: 100;
@@ -56,9 +57,10 @@
         <h1 class="bluee" style="margin-top: -1px;">🌤</h1>
         <h1 class="bluee" style="margin-top: -15px;">Currently 21° in Tokyo</h1>
         <h1 id="largeTemp">13° / <b>23°</b></h1>
-        <p class="box boxTopText">🌧Tomorrow<br>
-        <span class="boxBottomText">10° / 22°</span>
-        </p>
+        <div class="box">
+        <p class="boxTopText">🌧Tomorrow<br><br>
+            <span class="boxBottomText">10° / 22°</span>
+        </p></div>
     </body>
 
 
