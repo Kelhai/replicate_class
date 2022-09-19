@@ -1,0 +1,81 @@
+body {
+    justify-content: center;
+
+    text-align: center;
+    font-family: Arial;
+}
+.bluee {
+    color: #1964D6;
+    font-weight: 500px;
+    font-size: 34px;
+}
+#largeTemp {
+    font-size: 34px;
+    font-family: Arial;
+    font-weight: 150;
+    margin-top: -14px;
+}
+.box {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    transition: background-color 0.25s;
+    width: 400px;
+    height: 120px;
+    display: block;
+    flex-direction: column;
+    border-width: 0px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -1.27%;
+}
+.box:hover {
+    /*background-color: #FFFBEF;*/
+    background-color: #FFFBEF;
+}
+.boxTopText {
+    padding-top: 6%;
+    /*padding-right: 1.5%;*/
+    text-align: center;
+    font-size: 18.5px;
+    font-weight: 700;
+}
+.boxBottomText {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: monospace;
+    color: #4D4C48;
+}
+#top {
+    margin: auto;
+    margin-top: auto;
+}
+button {
+    background-color: #1964D6;
+    border-width: 5%;
+    border-style: solid;
+    color: white;
+    border-radius: 27.5px;
+    border-color: #1964D6;
+    width: 135px;
+    height: 55px;
+    cursor: pointer;
+    margin-top: 2%;
+    transition: background-color color;
+    transition-duration: 0.25s;
+    font-size: 16px;
+    font-family: Arial;
+}
+button:hover {
+    background-color: white;
+    color: #1964D6;
+}
+.attribution {
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    color: grey;
+}

@@ -2,68 +2,32 @@
 <html>
     <head>
         <title>html_css</title>
-        <style>
-            body {
-                justify-content: center;
-                align-content: center;
-                align-items: center;
-                text-align: center;
-                font-family: Arial;
-            }
-            .bluee {
-                color: #1964D6;
-                font-weight: 500px;
-                font-size: 34px;
-            }
-            #largeTemp {
-                font-size: 34px;
-                font-family: Arial;
-                font-weight: 150;
-                margin-top: -14px;
-            }
-            .box {
-                justify-content: space-around;
-                align-content: space-around;
-                background-color: white;
-                transition: background-color 0.25s;
-                width: 400px;
-                height: 100px;
-                display: block;
-                flex-direction: column;
-                border-width: 0px;
-                border-radius: 10px;
-                margin: auto;
-            }
-            .box:hover {
-                background-color: #FFFBEF;
-            }
-            .boxTopText {
-                text-align: center;
-                font-size: 20px;
-                font-weight: 500;
-            }
-            .boxBottomText {
-                margin-top: 10px;
-                text-align: center;
-                font-size: 20px;
-                font-weight: 100;
-                font-family: monospace;
-                color: #4D4C48;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <h1 class="bluee" style="margin-top: -1px;">🌤</h1>
         <h1 class="bluee" style="margin-top: -15px;">Currently 21° in Tokyo</h1>
         <h1 id="largeTemp">13° / <b>23°</b></h1>
+        <div class="box" id="top" style="margin: auto;">
+            <p class="boxTopText">🌧Tomorrow<br><br>
+                <span class="boxBottomText">10° / <b>22°</b></span>
+            </p>
+        </div>
         <div class="box">
-        <p class="boxTopText">🌧Tomorrow<br><br>
-            <span class="boxBottomText">10° / 22°</span>
-        </p></div>
+            <p class="boxTopText">🌥 Saturday<br><br>
+                <span class="boxBottomText">15° / <b>17°</b></span>
+            </p>
+        </div>
+        <div class="box">
+            <p class="boxTopText">☀️ Sunday<br><br>
+                <span class="boxBottomText">25° / <b>28°</b></span>
+            </p>
+        </div>
+        <button>Change city</button>
+        <p class="attribution">
+            Coded by Kellan Elhai
+        </p>
     </body>
-
-
-
 
 </html>
